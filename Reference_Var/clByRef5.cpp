@@ -6,6 +6,11 @@ int& fun(int x) {
     int y = x;                  //warning: reference to local variable ‘y’ returned
     return y;                   //warning : 
 }
+
+// int& fun(int &x) {
+//     x++;                //warning: reference to local variable ‘y’ returned
+//     return x;                   //warning : 
+// }
 int main() {
 
     int x = 20;
